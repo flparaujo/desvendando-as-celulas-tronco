@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:paddingBottom="20dp">
+
+    <LinearLayout
+        android:id="@+id/answer_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:background="#38ba00"
+        app:layout_constraintTop_toBottomOf="@id/question_text">
+
+        <TextView
+            android:id="@+id/answer1_label"
+            style="@style/AnswerLabel"
+            android:text="A" />
+
+        <TextView
+            android:id="@+id/answer1_text"
+            style="@style/AnswerText"
+            android:text="Vivamus pellentesque pharetra ipsum, in mattis erat ultricies ac. Vestibulum eget eros et sem congue facilisis." />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/answer_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:background="#fd1d1d"
+        app:layout_constraintTop_toBottomOf="@id/answer_1">
+
+
+        <TextView
+            android:id="@+id/answer2_label"
+            style="@style/AnswerLabel"
+            android:text="B" />
+
+        <TextView
+            android:id="@+id/answer2_text"
+            style="@style/AnswerText"
+            android:text="Curabitur eu purus pharetra, consequat justo et, faucibus tellus. Vivamus auctor lobortis ultrices. Integer varius odio sit amet ex efficitur dictum."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/answer_3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:background="@color/cardview_dark_background"
+        app:layout_constraintTop_toBottomOf="@id/answer_2">
+
+
+        <TextView
+            android:id="@+id/answer3_label"
+            style="@style/AnswerLabel"
+            android:text="C" />
+
+        <TextView
+            android:id="@+id/answer3_text"
+            style="@style/AnswerText"
+            android:text=" sem ultricies vehicula."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/question_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:textColor="@color/colorText"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras venenatis tincidunt auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquam tristique suscipit."
+        app:layout_constraintBottom_toTopOf="@id/answer_1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
