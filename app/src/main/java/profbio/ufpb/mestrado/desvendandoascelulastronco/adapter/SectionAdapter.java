@@ -81,23 +81,9 @@ public class SectionAdapter extends RecyclerView.Adapter<SectionAdapter.SectionA
             if(contentHiddenContainer.getVisibility() == View.GONE) {
                 ObjectAnimator.ofFloat(iconExpand, View.ROTATION, 0f, 180f).setDuration(200).start();
                 contentHiddenContainer.setVisibility(View.VISIBLE);
-                contentHiddenContainer.startAnimation(AnimationUtils.loadAnimation(context, R.anim.slide_down));
             } else {
                 ObjectAnimator.ofFloat(iconExpand, View.ROTATION, 180f, 0f).setDuration(200).start();
-                Animation animation = AnimationUtils.loadAnimation(context, R.anim.slide_up);
-                animation.setAnimationListener(new Animation.AnimationListener() {
-                    @Override
-                    public void onAnimationStart(Animation animation) { }
-
-                    @Override
-                    public void onAnimationEnd(Animation animation) {
-                        contentHiddenContainer.setVisibility(View.GONE);
-                    }
-
-                    @Override
-                    public void onAnimationRepeat(Animation animation) { }
-                });
-                contentHiddenContainer.startAnimation(animation);
+                contentHiddenContainer.setVisibility(View.GONE);
             }
         }
     }
