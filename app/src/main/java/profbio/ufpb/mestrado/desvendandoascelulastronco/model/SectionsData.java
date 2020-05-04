@@ -45,19 +45,19 @@ public class SectionsData {
                             "de pré-implantação no útero. Os embriões humanos atingem a fase de blastocisto por volta de 4-5 dias após a fertilização, sendo constituídas em média de 50-150 células. O trabalho para utilizar " +
                             "este tipo celular resulta em isolar o embrioblasto ou a massa celular interior acarretando na destruição do blastocisto, o que levanta questões éticas, como: “os embriões na fase de pré-implantação " +
                             "devem ou não ter o mesmo <i>status</i> moral ou legal que os embriões no estágio de desenvolvimento pós-implantação do blastocisto?”" +
-                            "<h5><i>PROPRIEDADES</i></h5>" +
+                            "<h6><i>PROPRIEDADES</i></h6>" +
                             "As CTE, derivadas dos embriões de mamíferos precoces do estágio de blastocisto, distinguem-se por sua capacidade de se propagar. As propriedades das CTE incluem o cariótipo normal, " +
                             "a manutenção da atividade da telomerase elevada e o potencial proliferativo notável a longo prazo, sendo assim, conhecidas como células pluripotentes ou totipotentes. As CTE humanas medem aproximadamente 14µm." +
-                            "<h5><i>PORQUE SÃO PLURIPOTENTES?</i></h5>" +
+                            "<h6><i>PORQUE SÃO PLURIPOTENTES?</i></h6>" +
                             " As CTE da massa celular interna são pluripotentes ou totipotentes, ou seja, possuem a capacidade de diferenciação para gerar ectoderme primitiva, que finalmente se diferencia durante a gastrulação " +
                             "em todas as derivações das três camadas germinativas primárias: ectoderme, endoderme e mesoderme. Estes incluem cada um dos mais de 220 tipos de células no corpo adulto. A pluripotência distingue células-tronco embrionárias " +
                             "de células-tronco de adultos, enquanto as células-tronco embrionárias podem gerar todos os tipos de células no corpo, as células-tronco adultas são multipotentes e podem produzir apenas um número limitado de tipos de células. " +
                             "Se o potencial de diferenciação pluripotente das células-tronco embrionárias pudesse ser aproveitado <i>in vitro</i>, poderia ser um meio de derivar virtualmente os tipos de células ou tecidos. Isso proporcionaria uma nova " +
                             "abordagem radical de tratamento para uma ampla variedade de condições em que a idade, a doença ou o trauma levaram a danos ou disfunções nos tecidos." +
-                            "<h5><i>COMO OCORRE A SUA PROPAGAÇÃO?</i></h5>" +
+                            "<h6><i>COMO OCORRE A SUA PROPAGAÇÃO?</i></h6>" +
                             "Em condições definidas, as CTE são capazes de se propagarem indefinidamente de forma indiferenciada, presumivelmente através da formação de células precursoras, para quase todos os fenótipos celulares maduros. " +
                             "Isso permite que as CTE sejam empregadas como ferramentas úteis tanto para a pesquisa quanto para a medicina regenerativa, porque elas podem produzir números ilimitados de si mesmas para pesquisas contínuas ou uso clínico." +
-                            "<h5><i>QUAIS AS UTILIDADES?</i></h5>" +
+                            "<h6><i>QUAIS AS UTILIDADES?</i></h6>" +
                             "Devido à sua plasticidade e capacidade potencialmente ilimitada de auto renovação, as terapias com CTE foram propostas para a medicina regenerativa e a substituição de tecidos após lesão ou doença. Doenças que " +
                             "poderiam potencialmente ser tratadas por células-tronco pluripotentes incluem uma série de doenças genéticas, cânceres e distúrbios relacionados ao sistema imunológico e ao sangue; diabetes juvenil, doença de Parkinson, cegueira e lesões na " +
                             "medula espinhal. Admite as preocupações éticas da terapia com células-tronco. As CTE dão esperanças de que será possível, em um futuro próximo, suprir a necessidade reposicional de tecidos, tornando as células imunocompatíveis com o receptor. " +
@@ -73,7 +73,7 @@ public class SectionsData {
                             "não é considerado controverso, uma vez que são derivadas de amostras de tecidos adultos em vez de embriões humanos designados para investigação científica. Eles têm sido estudados principalmente em seres humanos e organismos modelo, como ratos e camundongos." +
                             "<br><br>A história das CTA inicia-se após a segunda guerra mundial com a liberação das bombas atômicas nas cidades japonesas de Hiroshima e Nagasaki, no ano de 1945. Tais bombardeios foram capitaneados pelos EUA e causaram um grande número " +
                             "de mortes precoces, dizimando grande parte da população existente naquelas cidades. Iniciaram diversos estudos para justificar a potencialidade existentes nas bombas, descobrindo-se a função no organismo de um grupo de células tronco presentes na medula óssea." +
-                            "<h5><i>PROPRIEDADES</i></h5>" +
+                            "<h6><i>PROPRIEDADES</i></h6>" +
                             "Uma célula-tronco adulta possui duas propriedades:" +
                             "<p><i>Auto-renovação</i> - habilidade de passar por numerosos ciclos de divisão celular (mitoses) enquanto ainda mantém seu estado indiferenciado." +
                             "</p><i>Multipotência ou potencial multidiferenciativo</i> - capacidade de gerar progênie de vários tipos distintos de células (por exemplo, células gliais e neurônios) em oposição à unipotência, que é o termo para células que são restritas a produzir um tipo de " +
@@ -81,16 +81,16 @@ public class SectionsData {
                             "ensaio clonogênico, em que a progenia de uma única célula é caracterizada. No entanto, sabe-se que as condições de cultura celular <i>in vitro</i> podem alterar o comportamento das células, provando que uma subpopulação particular de células, possui propriedades de células " +
                             "estaminais <i>in vivo</i> um desafio e existe um debate considerável se algumas populações de <i>células estaminais</i> propostas presentes no adulto, são de fato células-tronco. As células estaminais (latim <i>stamen, staminis</i> = tronco, ordem, filo, fio) denominadas dessa forma por " +
                             "possuírem a capacidade de auto-divisão formando diversos grupos celulares existentes em um organismo vivos a capacidade de diferenciarem-se em diversos grupos de células e tecidos específicos com funções especializadas." +
-                            "<h5><i>LINHAGEM DAS CÉLULAS-TRONCO</i></h5>" +
+                            "<h6><i>LINHAGEM DAS CÉLULAS-TRONCO</i></h6>" +
                             "Para assegurar a auto renovação, as CT sofrem dois tipos de divisão celular: Simétrica e Assimétrica. A divisão simétrica dá origem a duas células-filhas idênticas, ambas dotadas de propriedades de células estaminais, enquanto a divisão assimétrica produz apenas uma " +
                             "célula estaminal e progenitora com potencial de auto renovação limitado. Os progenitores podem passar por vários ciclos de divisão celular antes de finalmente se diferenciar em uma célula madura. Acredita-se que a distinção molecular entre divisões simétricas e assimétricas esteja na segregação " +
                             "diferencial das proteínas da membrana celular (como os receptores) entre as células filhas." +
-                            "<h5><i>PLASTICIDADE</i></h5>" +
+                            "<h6><i>PLASTICIDADE</i></h6>" +
                             "As descobertas nos últimos anos sugeriram que as CTA podem ter a capacidade de se diferenciar em tipos de células de diferentes camadas germinativas. Por exemplo, células-tronco neurais do cérebro; que são derivados do ectoderma, podem se diferenciar em ectoderme, mesoderme e " +
                             "endoderme. Este fenômeno é referido como transdiferenciação de CT ou plasticidade. Pode ser induzida pela modificação do meio de crescimento quando as CT são cultivadas <i>in vitro</i> ou transplantadas para um órgão do corpo diferente daquele do qual foram originalmente isoladas. Ainda não há consenso entre " +
                             "os biólogos sobre a prevalência e relevância fisiológica e terapêutica da plasticidade das células-tronco. Descobertas mais recentes sugerem que células-tronco pluripotentes podem residir em tecidos sanguíneos e adultos em um estado dormente. Estas células são referenciadas como células estaminais do tipo " +
                             "<i>Blastomere Like</i> e células estaminais embrionárias muito pequenas tipo VSEL (do inglês “VerySmallEmbryonic-Like” - Muito pequeno tipo embrionário), e exibem pluripotência <i>in vitro</i>." +
-                            "<h5><i>TIPOS DE CÉLULAS-TRONCO ADULTAS (CTA)</i></h5>" +
+                            "<h6><i>TIPOS DE CÉLULAS-TRONCO ADULTAS (CTA)</i></h6>" +
                             "<b><i>Células Estaminais Hematopoiéticas - </i></b>As células estaminais hematopoiéticas são encontradas na medula óssea e no sangue do cordão umbilical e dão origem a todos os tipos de células sanguíneas. Segundo a literatura específica, pesquisas desenvolvidas após a segunda guerra mundial " +
                             "em relação as bombas de Hiroshima e Nagasaki apontaram que boa parte das mortes foram proporcionadas por insuficiência medular. Em estudos posteriores, com camundongos, verificou-se que estes ao receberem certo grau de radiações apresentavam morte com características semelhantes ao acontecido com a população das " +
                             "cidades japonesas. Nestes mesmos experimentos verificaram-se que quando ocorria a inoculação do elemento químico chumbo (Ch) protegendo o baço destas cobaias, a atividade sanguínea não era prejudicada. A partir de tais observações foram administradas dosagens de células da medula óssea, com resultados satisfatórios, " +
