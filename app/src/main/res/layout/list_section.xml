@@ -31,7 +31,7 @@
                     android:layout_height="wrap_content"
                     android:text="O QUE SÃO CÉLULAS TRONCO"
                     android:textSize="15sp"
-                    android:padding="10dp"
+                    android:padding="15dp"
                     android:layout_alignParentStart="true"
                     android:layout_toLeftOf="@id/ic_expand"
                     android:gravity="left"
