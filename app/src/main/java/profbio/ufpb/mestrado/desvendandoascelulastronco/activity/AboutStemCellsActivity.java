@@ -65,7 +65,7 @@ public class AboutStemCellsActivity extends AppCompatActivity {
             sections.add(section);
         }
 
-        adapter = new SectionAdapter(sections, getApplicationContext());
+        adapter = new SectionAdapter(sections);
         recyclerView.setAdapter(adapter);
     }
 }

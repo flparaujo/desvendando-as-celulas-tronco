@@ -1,13 +1,10 @@
 package profbio.ufpb.mestrado.desvendandoascelulastronco.adapter;
 
 import android.animation.ObjectAnimator;
-import android.content.Context;
 import android.os.Build;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
@@ -26,17 +23,15 @@ import static android.text.Layout.JUSTIFICATION_MODE_INTER_WORD;
 public class SectionAdapter extends RecyclerView.Adapter<SectionAdapter.SectionAdapterViewHolder> {
 
     private List<Section> sections;
-    private Context context;
 
-    public SectionAdapter(List<Section> sections, Context context) {
+    public SectionAdapter(List<Section> sections) {
         this.sections = sections;
-        this.context = context;
     }
 
     @NonNull
     @Override
     public SectionAdapter.SectionAdapterViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.list_section, parent, false);;
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.list_section, parent, false);
         return new SectionAdapterViewHolder(view);
     }
 
