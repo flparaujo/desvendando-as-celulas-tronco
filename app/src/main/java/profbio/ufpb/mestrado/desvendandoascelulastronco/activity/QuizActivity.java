@@ -1,5 +1,6 @@
 package profbio.ufpb.mestrado.desvendandoascelulastronco.activity;
 
+import android.content.DialogInterface;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
@@ -142,6 +143,11 @@ public class QuizActivity extends AppCompatActivity implements PopupMenu.OnMenuI
                 }
             }
         });
+    }
+
+    @Override
+    public void onBackPressed() {
+        showExitDialog();
     }
 
     private void showCorrect() {
@@ -341,6 +347,16 @@ public class QuizActivity extends AppCompatActivity implements PopupMenu.OnMenuI
 
         alertDialog.show();
         usedHelp3 = true;
+    }
+
+    private void showExitDialog() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(QuizActivity.this);
+        builder.setTitle("❎ Sair do jogo");
+        builder.setMessage("Tem certeza que quer sair?")
+                .setPositiveButton("Sim", (dialog, id) -> finish())
+                .setNegativeButton("Não", (dialog, id) -> dialog.cancel());
+        AlertDialog alert = builder.create();
+        alert.show();
     }
 
     private void eraseTwoWrong() {
