@@ -17,7 +17,7 @@ import profbio.ufpb.mestrado.desvendandoascelulastronco.adapter.SectionAdapter;
 import profbio.ufpb.mestrado.desvendandoascelulastronco.model.Section;
 import profbio.ufpb.mestrado.desvendandoascelulastronco.model.SectionsData;
 
-public class AboutStemCellsActivity extends AppCompatActivity {
+public class CuriositiesActivity extends AppCompatActivity {
 
     RecyclerView recyclerView;
     SectionAdapter adapter;
@@ -26,7 +26,7 @@ public class AboutStemCellsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_about_stem_cells);
+        setContentView(R.layout.activity_curiosities);
 
         Toolbar toolbar = findViewById(R.id.my_toolbar);
         setSupportActionBar(toolbar);

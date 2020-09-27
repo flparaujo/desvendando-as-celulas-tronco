@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         learnMore.setOnClickListener(v -> {
-            startActivity(new Intent(MainActivity.this, AboutStemCellsActivity.class));
+            startActivity(new Intent(MainActivity.this, CuriositiesActivity.class));
             overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
         });
     }

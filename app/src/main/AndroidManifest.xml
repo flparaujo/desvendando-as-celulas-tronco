@@ -17,7 +17,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.AboutStemCellsActivity"
+        <activity android:name=".activity.CuriositiesActivity"
             android:screenOrientation="portrait"></activity>
         <activity android:name=".activity.QuizActivity"
             android:screenOrientation="portrait"></activity>
