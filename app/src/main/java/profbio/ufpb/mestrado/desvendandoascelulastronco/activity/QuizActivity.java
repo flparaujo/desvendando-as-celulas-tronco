@@ -259,7 +259,7 @@ public class QuizActivity extends AppCompatActivity implements PopupMenu.OnMenuI
     private void gotoNextLevel() {
         if(level == 3) { return; }
         level++;
-        questions = new ArrayList<>(QuestionsData.getQuestions().subList(8*(level-1), (8*(level-1)) + level < 3 ? 8 : 9));
+        questions = new ArrayList<>(QuestionsData.getQuestions().subList(8*(level-1), (8*(level-1)) + (level < 3 ? 8 : 9)));
         totalQuestions = questions.size();
         questionCounter = 0;
         currentLevel.setText("Nível "+level);
@@ -373,7 +373,8 @@ public class QuizActivity extends AppCompatActivity implements PopupMenu.OnMenuI
             Toast.makeText(this, "Essa é a última questão da fase atual", Toast.LENGTH_SHORT).show();
         } else {
             int min = this.questionCounter+1;
-            int val = new Random().nextInt((7 - min) + 1) + min;
+            int k = level < 3 ? 7 : 8;
+            int val = new Random().nextInt((k - min) + 1) + min;
             Collections.swap(this.questions, this.questionCounter, val);
             this.usedHelp1 = true;
             showNextQuestion();

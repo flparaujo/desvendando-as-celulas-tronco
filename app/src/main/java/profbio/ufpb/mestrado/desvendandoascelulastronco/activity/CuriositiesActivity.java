@@ -1,5 +1,6 @@
 package profbio.ufpb.mestrado.desvendandoascelulastronco.activity;
 
+import android.os.Build;
 import android.os.Bundle;
 import android.text.util.Linkify;
 import android.view.MenuItem;
@@ -62,6 +63,9 @@ public class CuriositiesActivity extends AppCompatActivity {
                 "Aprofundem-se mais sobre o assunto acessando: https://ccb.med.br/texto/polpa-do-dente#:~:text=Vantagens%20do%20armazenamento%20das%20c%C3%A9lulas,tamb%C3%A9m%20a%20toda%20sua%20fam%C3%ADlia.</p>", HtmlCompat.FROM_HTML_MODE_LEGACY));
 
         Linkify.addLinks(text, Linkify.ALL);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            text.setJustificationMode(android.text.Layout.JUSTIFICATION_MODE_INTER_WORD);
+        }
 
     }
 

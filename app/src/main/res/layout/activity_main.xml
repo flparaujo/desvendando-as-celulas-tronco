@@ -90,12 +90,21 @@
             android:textColor="@color/colorPrimaryDark"
             android:text="Sobre as células-tronco" />
 
-        <ImageView
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ufpb_profbio_logo"
             android:layout_alignParentBottom="true"
-            android:layout_centerInParent="true"/>
+            android:layout_centerInParent="true">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ufpb_profbio_logo"/>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="12dp"
+                android:src="@drawable/capes"/>
+        </LinearLayout>
 
     </RelativeLayout>
 
