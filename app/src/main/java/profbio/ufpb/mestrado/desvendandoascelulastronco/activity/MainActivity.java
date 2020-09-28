@@ -16,14 +16,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button play = findViewById(R.id.btn_play);
-        Button learnMore = findViewById(R.id.btn_learn_more);
+        Button curiositiesBtn = findViewById(R.id.btn_curiosities);
 
         play.setOnClickListener(v -> {
             startActivity(new Intent(MainActivity.this, QuizActivity.class));
             overridePendingTransition(R.anim.slide_down_long, R.anim.slide_up_long);
         });
 
-        learnMore.setOnClickListener(v -> {
+        curiositiesBtn.setOnClickListener(v -> {
             startActivity(new Intent(MainActivity.this, CuriositiesActivity.class));
             overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
         });

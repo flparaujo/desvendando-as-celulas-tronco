@@ -14,7 +14,7 @@
         android:layout_height="0dp"
         android:orientation="vertical"
         android:paddingTop="20dp"
-        android:layout_weight="5">
+        android:layout_weight="4">
 
         <ImageView
             android:id="@+id/app_icon"
@@ -68,7 +68,7 @@
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
         android:paddingBottom="5dp"
-        android:layout_weight="5">
+        android:layout_weight="6">
 
         <Button
             android:id="@+id/btn_play"
@@ -88,7 +88,18 @@
             android:layout_centerInParent="true"
             android:background="@drawable/learn_btn_ripple"
             android:textColor="@color/colorPrimaryDark"
+            android:layout_marginBottom="5dp"
             android:text="Sobre as células-tronco" />
+
+        <Button
+            android:id="@+id/btn_curiosities"
+            android:layout_below="@id/btn_learn_more"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/learn_btn_ripple"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Curiosidades" />
 
         <LinearLayout
             android:layout_width="wrap_content"
