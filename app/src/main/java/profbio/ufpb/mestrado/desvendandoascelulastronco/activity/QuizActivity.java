@@ -259,7 +259,7 @@ public class QuizActivity extends AppCompatActivity implements PopupMenu.OnMenuI
     private void gotoNextLevel() {
         if(level == 3) { return; }
         level++;
-        questions = new ArrayList<>(QuestionsData.getQuestions().subList(8*(level-1), (8*(level-1)) + 8));
+        questions = new ArrayList<>(QuestionsData.getQuestions().subList(8*(level-1), (8*(level-1)) + level < 3 ? 8 : 9));
         totalQuestions = questions.size();
         questionCounter = 0;
         currentLevel.setText("Nível "+level);
