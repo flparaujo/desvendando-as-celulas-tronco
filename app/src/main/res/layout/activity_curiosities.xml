@@ -11,16 +11,26 @@
         android:id="@+id/my_toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        app:title="Células-Tronco"
+        app:title="Curiosidades"
         app:titleTextColor="@android:color/white"
         app:layout_constraintTop_toTopOf="parent"
         android:theme="@style/ToolBarTheme"/>
 
-    <androidx.recyclerview.widget.RecyclerView
+    <ScrollView
         app:layout_constraintTop_toBottomOf="@id/my_toolbar"
-        android:id="@+id/recycler_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="?attr/actionBarSize"/>
+        android:layout_marginTop="?actionBarSize"
+        android:background="@android:color/white">
+
+        <TextView
+            android:padding="10dp"
+            android:id="@+id/curiosities_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="curiosidades"/>
+
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
