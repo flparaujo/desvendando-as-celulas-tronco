@@ -3,6 +3,7 @@ package profbio.ufpb.mestrado.desvendandoascelulastronco.activity;
 import android.os.Bundle;
 import android.text.method.LinkMovementMethod;
 import android.text.util.Linkify;
+import android.view.MenuItem;
 import android.widget.TextView;
 
 import androidx.appcompat.app.ActionBar;
@@ -64,6 +65,15 @@ public class CuriositiesActivity extends AppCompatActivity {
         Linkify.addLinks(text, Linkify.ALL);
 
     }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == android.R.id.home) {
+            onBackPressed();
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
 
     @Override
     public void onBackPressed() {
