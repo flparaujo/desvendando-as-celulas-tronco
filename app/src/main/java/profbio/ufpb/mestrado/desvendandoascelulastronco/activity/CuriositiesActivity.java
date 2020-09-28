@@ -1,7 +1,6 @@
 package profbio.ufpb.mestrado.desvendandoascelulastronco.activity;
 
 import android.os.Bundle;
-import android.text.method.LinkMovementMethod;
 import android.text.util.Linkify;
 import android.view.MenuItem;
 import android.widget.TextView;
