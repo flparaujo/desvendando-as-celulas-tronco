@@ -6,7 +6,7 @@ public class SectionsData {
 
     private static Section[] sections = new Section[] {
             new Section("O QUE SÃO CÉLULAS-TRONCO?",
-                    HtmlCompat.fromHtml("O organismo humano é constituído por centenas de tipos celulares diferentes, " +
+                    HtmlCompat.fromHtml("Você sabia que organismo humano é constituído por centenas de tipos celulares diferentes, " +
                             "importantes para nossa saúde. Estas células possuem a capacidade de renovação celular mantendo o bom " +
                             "funcionamento do nosso organismo. Sabendo que há cerca de três trilhões de células que possuímos se " +
                             "originaram a partir de uma única célula, denominada zigoto, e que por sucessivas divisões celulares " +

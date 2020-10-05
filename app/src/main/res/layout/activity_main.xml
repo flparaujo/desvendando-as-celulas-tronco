@@ -71,34 +71,48 @@
         android:layout_weight="6">
 
         <Button
+            android:layout_marginTop="20dp"
             android:id="@+id/btn_play"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:layout_above="@id/btn_learn_more"
-            android:background="@drawable/play_btn_ripple"
+            android:layout_width="@dimen/btn_menu_w"
+            android:layout_height="@dimen/btn_menu_w"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:paddingTop="20dp"
+            android:drawableTop="@drawable/ic_videogame_asset"
+            android:stateListAnimator="@null"
+            android:background="@drawable/circle_btn_ripple"
             android:textColor="@android:color/white"
             android:layout_marginBottom="5dp"
             android:text="jogar" />
 
         <Button
-            android:id="@+id/btn_learn_more"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:background="@drawable/learn_btn_ripple"
-            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/btn_study"
+            android:layout_marginLeft="20dp"
+            android:layout_width="@dimen/btn_menu_w"
+            android:layout_height="@dimen/btn_menu_w"
+            android:layout_alignParentLeft="true"
+            android:drawableTop="@drawable/ic_local_library"
+            android:paddingTop="20dp"
+            android:stateListAnimator="@null"
+            android:layout_below="@id/btn_play"
+            android:background="@drawable/circle_btn_ripple"
+            android:textColor="@android:color/white"
             android:layout_marginBottom="5dp"
-            android:text="Sobre as células-tronco" />
+            android:text="Estudo" />
 
         <Button
             android:id="@+id/btn_curiosities"
-            android:layout_below="@id/btn_learn_more"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:background="@drawable/learn_btn_ripple"
-            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginRight="20dp"
+            android:layout_below="@id/btn_play"
+            android:layout_width="@dimen/btn_menu_w"
+            android:layout_height="@dimen/btn_menu_w"
+            android:stateListAnimator="@null"
+            android:drawableTop="@drawable/ic_curiosities"
+            android:paddingTop="20dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/circle_btn_ripple"
+            android:textColor="@android:color/white"
             android:text="Curiosidades" />
 
         <LinearLayout

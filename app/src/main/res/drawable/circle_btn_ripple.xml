@@ -6,8 +6,16 @@
     <!-- for Button -->
     <item>
         <shape android:shape="rectangle">
-            <corners android:radius="25dp" />
+            <corners android:radius="1000dp" />
             <solid android:color="@color/colorPrimary"/>
+            <stroke
+                android:width="4dp"
+                android:color="@color/colorPrimaryLight" />
+            <padding
+                android:bottom="4dp"
+                android:left="4dp"
+                android:right="4dp"
+                android:top="4dp" />
         </shape>
     </item>
 
