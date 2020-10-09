@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
+import profbio.ufpb.mestrado.desvendandoascelulastronco.fragment.ASCsFragment;
 import profbio.ufpb.mestrado.desvendandoascelulastronco.fragment.ESCsFragment;
 import profbio.ufpb.mestrado.desvendandoascelulastronco.fragment.WhatAreStemCellsFragment;
 
@@ -28,7 +29,7 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
             case 1:
                 return ESCsFragment.newInstance(1, tabTitles[1]);
             case 2:
-                return WhatAreStemCellsFragment.newInstance(1, tabTitles[2]);
+                return ASCsFragment.newInstance(2, tabTitles[2]);
             default:
                 return null;
         }

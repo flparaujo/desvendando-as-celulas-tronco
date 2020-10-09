@@ -27,7 +27,6 @@ public class StudyActivity extends AppCompatActivity {
         viewPager.setAdapter(sectionsPagerAdapter);
         TabLayout tabs = findViewById(R.id.tabs);
         tabs.setupWithViewPager(viewPager);
-        FloatingActionButton fab = findViewById(R.id.fab);
 
         TextView appBarTitle = findViewById(R.id.title);
         appBarTitle.setText("Células-Tronco (1/"+sectionsPagerAdapter.getCount()+")");

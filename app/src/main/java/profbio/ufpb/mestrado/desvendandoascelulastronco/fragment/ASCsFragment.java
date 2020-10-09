@@ -17,17 +17,17 @@ import profbio.ufpb.mestrado.desvendandoascelulastronco.R;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link ESCsFragment#newInstance} factory method to
+ * Use the {@link ASCsFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class ESCsFragment extends PageFragment {
+public class ASCsFragment extends PageFragment {
 
-    public ESCsFragment() {
+    public ASCsFragment() {
         // Required empty public constructor
     }
 
-    public static ESCsFragment newInstance(int page, String title) {
-        ESCsFragment fragment = new ESCsFragment();
+    public static ASCsFragment newInstance(int page, String title) {
+        ASCsFragment fragment = new ASCsFragment();
         Bundle args = new Bundle();
         args.putInt("page", page);
         args.putString("title", title);
@@ -62,6 +62,6 @@ public class ESCsFragment extends PageFragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_e_s_cs, container, false);
+        return inflater.inflate(R.layout.fragment_a_s_cs, container, false);
     }
 }
