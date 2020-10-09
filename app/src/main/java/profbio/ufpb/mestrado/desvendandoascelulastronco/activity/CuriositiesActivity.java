@@ -27,7 +27,7 @@ public class CuriositiesActivity extends AppCompatActivity {
         actionBar.setDisplayHomeAsUpEnabled(true);
 
         TextView text = findViewById(R.id.curiosities_text);
-        text.setText(HtmlCompat.fromHtml("<h5>CURIOSIDADES SOBRE AS CT’S</h5><br>" +
+        text.setText(HtmlCompat.fromHtml("<h5>CURIOSIDADES SOBRE AS CT’S</h5>" +
                 "<p>A comunidade científica vem demonstrando grande interesse pelo estudo desse grupo celular, e isso tem sido divulgado " +
                 "por diversos meios de comunicação. Entretanto, poucos imaginam que existem várias pesquisas em que o cultivo de células-tronco" +
                 " em laboratório podem apresentar novidades promissoras na forma como a medicina propõe tratamentos e diagnósticos dos mais diversos" +

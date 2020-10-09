@@ -79,7 +79,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingLeft="10dp"
-        android:textColor="@color/colorText"
+        style="@style/TextStyle"
         android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras venenatis tincidunt auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquam tristique suscipit."
         app:layout_constraintBottom_toTopOf="@id/answer_1"
         app:layout_constraintTop_toTopOf="parent" />

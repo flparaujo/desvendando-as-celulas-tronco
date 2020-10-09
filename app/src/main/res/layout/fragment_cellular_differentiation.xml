@@ -14,7 +14,7 @@
             android:id="@+id/cellular_differentiation_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/colorText"
+            style="@style/TextStyle"
             android:padding="10dp"
             android:text="texto"/>
 

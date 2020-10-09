@@ -20,7 +20,7 @@
                 android:id="@+id/esc_p1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorText"
+                style="@style/TextStyle"
                 android:text="texto"/>
 
             <ImageView
@@ -34,7 +34,7 @@
                 android:id="@+id/esc_p2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorText"
+                style="@style/TextStyle"
                 android:text="texto"/>
 
         </LinearLayout>
