@@ -29,7 +29,7 @@ public class StudyActivity extends AppCompatActivity {
         tabs.setupWithViewPager(viewPager);
 
         TextView appBarTitle = findViewById(R.id.title);
-        appBarTitle.setText("Células-Tronco (1/"+sectionsPagerAdapter.getCount()+")");
+        appBarTitle.setText("Células-Tronco (1/" + sectionsPagerAdapter.getCount() + ")");
 
         viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
@@ -39,7 +39,7 @@ public class StudyActivity extends AppCompatActivity {
 
             @Override
             public void onPageSelected(int position) {
-                appBarTitle.setText("Células-Tronco ("+(position + 1)+"/3)");
+                appBarTitle.setText("Células-Tronco (" + (position + 1) + "/" + sectionsPagerAdapter.getCount() + ")");
             }
 
             @Override

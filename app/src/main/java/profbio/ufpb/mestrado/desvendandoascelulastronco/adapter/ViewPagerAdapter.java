@@ -8,13 +8,17 @@ import androidx.fragment.app.FragmentPagerAdapter;
 
 import profbio.ufpb.mestrado.desvendandoascelulastronco.fragment.ASCsFragment;
 import profbio.ufpb.mestrado.desvendandoascelulastronco.fragment.ESCsFragment;
+import profbio.ufpb.mestrado.desvendandoascelulastronco.fragment.IPSCsFragment;
+import profbio.ufpb.mestrado.desvendandoascelulastronco.fragment.LegislationFragment;
 import profbio.ufpb.mestrado.desvendandoascelulastronco.fragment.WhatAreStemCellsFragment;
 
 public class ViewPagerAdapter extends FragmentPagerAdapter {
 
     private String tabTitles[] = new String[]{"O QUE SÃO CÉLULAS-TRONCO?",
             "CÉLULAS-TRONCO EMBRIONÁRIAS (CTE)",
-            "CÉLULAS-TRONCO ADULTAS (CTA)"};
+            "CÉLULAS-TRONCO ADULTAS (CTA)",
+            "CÉLULAS-TRONCO PLURIPOTENTES INDUZIDAS (IPS)",
+            "LEGISLAÇÃO SOBRE O USO DE CÉLULAS-TRONCO (CT)"};
 
     public ViewPagerAdapter(@NonNull FragmentManager fragmentManager) {
         super(fragmentManager, BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
@@ -30,6 +34,10 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
                 return ESCsFragment.newInstance(1, tabTitles[1]);
             case 2:
                 return ASCsFragment.newInstance(2, tabTitles[2]);
+            case 3:
+                return IPSCsFragment.newInstance(3, tabTitles[3]);
+            case 4:
+                return LegislationFragment.newInstance(4, tabTitles[4]);
             default:
                 return null;
         }
@@ -37,7 +45,7 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        return 3;
+        return tabTitles.length;
     }
 
     @Nullable
