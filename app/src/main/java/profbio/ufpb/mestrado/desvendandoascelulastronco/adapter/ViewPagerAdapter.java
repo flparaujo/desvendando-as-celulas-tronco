@@ -11,6 +11,7 @@ import profbio.ufpb.mestrado.desvendandoascelulastronco.fragment.CellularDiffere
 import profbio.ufpb.mestrado.desvendandoascelulastronco.fragment.ESCsFragment;
 import profbio.ufpb.mestrado.desvendandoascelulastronco.fragment.IPSCsFragment;
 import profbio.ufpb.mestrado.desvendandoascelulastronco.fragment.LegislationFragment;
+import profbio.ufpb.mestrado.desvendandoascelulastronco.fragment.ReferencesFragment;
 import profbio.ufpb.mestrado.desvendandoascelulastronco.fragment.WhatAreStemCellsFragment;
 
 public class ViewPagerAdapter extends FragmentPagerAdapter {
@@ -20,7 +21,7 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
             "CÉLULAS-TRONCO ADULTAS (CTA)",
             "CÉLULAS-TRONCO PLURIPOTENTES INDUZIDAS (IPS)",
             "LEGISLAÇÃO SOBRE O USO DE CÉLULAS-TRONCO (CT)",
-            "DIFERENCIAÇÃO CELULAR"};
+            "DIFERENCIAÇÃO CELULAR", "REFERÊNCIAS"};
 
     public ViewPagerAdapter(@NonNull FragmentManager fragmentManager) {
         super(fragmentManager, BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
@@ -42,6 +43,8 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
                 return LegislationFragment.newInstance(4, tabTitles[4]);
             case 5:
                 return CellularDifferentiationFragment.newInstance(5, tabTitles[5]);
+            case 6:
+                return ReferencesFragment.newInstance(6, tabTitles[6]);
             default:
                 return null;
         }
