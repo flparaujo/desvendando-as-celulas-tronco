@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
 
         curiositiesBtn.setOnClickListener(v -> {
             startActivity(new Intent(MainActivity.this, CuriositiesActivity.class));
-            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
         });
 
         aboutBtn.setOnClickListener(v -> {
