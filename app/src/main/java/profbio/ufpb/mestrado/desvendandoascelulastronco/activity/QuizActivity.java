@@ -2,6 +2,7 @@ package profbio.ufpb.mestrado.desvendandoascelulastronco.activity;
 
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.MenuItem;
@@ -170,6 +171,9 @@ public class QuizActivity extends AppCompatActivity implements PopupMenu.OnMenuI
         if (questionCounter < totalQuestions) {
             currentQuestion = questions.get(questionCounter);
             question.setText(currentQuestion.getQuestion());
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                question.setJustificationMode(android.text.Layout.JUSTIFICATION_MODE_INTER_WORD);
+            }
             answer1.setText(currentQuestion.getAnswer1());
             answer2.setText(currentQuestion.getAnswer2());
             answer3.setText(currentQuestion.getAnswer3());

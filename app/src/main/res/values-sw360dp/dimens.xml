@@ -6,5 +6,9 @@
     <dimen name="ic_mood_bad_wh">192dp</dimen>
     <dimen name="btn_menu_w">130dp</dimen>
     <dimen name="btn_menu_h">130dp</dimen>
+    <dimen name="main_menu_icon_w">100dp</dimen>
+    <dimen name="main_menu_icon_h">100dp</dimen>
+    <dimen name="main_menu_title_text1_size">17sp</dimen>
+    <dimen name="main_menu_title_text2_size">25sp</dimen>
 
 </resources>
