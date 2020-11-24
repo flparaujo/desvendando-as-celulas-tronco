@@ -2,17 +2,15 @@ package profbio.ufpb.mestrado.desvendandoascelulastronco.fragment;
 
 import android.os.Build;
 import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.text.HtmlCompat;
 import androidx.fragment.app.Fragment;
-
-import android.text.util.Linkify;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.TextView;
 
 import profbio.ufpb.mestrado.desvendandoascelulastronco.R;
 
@@ -66,7 +64,6 @@ public class ReferencesFragment extends PageFragment {
                 "<p>YAMANAKA S. <strong>A fresh look at iPS cells.</strong> Science Direct Journals &amp; Book. Cell, 2009; 137:13-17. </p>" +
                 "<p>YU, J.; THOMSON, J.A. <strong>Pluripotent Stem Cell Lines.</strong> CSHPress. Genes &amp; Development, 2008. Disponível em: http://genesdev.cshlp.org/content/22/15/1987.short. Acesso em 02/10/2019.</p>", HtmlCompat.FROM_HTML_MODE_LEGACY));
 
-        Linkify.addLinks(text, Linkify.ALL);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             text.setJustificationMode(android.text.Layout.JUSTIFICATION_MODE_INTER_WORD);
         }

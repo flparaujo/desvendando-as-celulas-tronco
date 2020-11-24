@@ -2,7 +2,6 @@ package profbio.ufpb.mestrado.desvendandoascelulastronco.activity;
 
 import android.os.Build;
 import android.os.Bundle;
-import android.text.util.Linkify;
 import android.view.MenuItem;
 import android.widget.TextView;
 
@@ -62,7 +61,6 @@ public class CuriositiesActivity extends AppCompatActivity {
                 "<p>Os estudos mais recorrentes na mídia de uma forma geral, apontam as células-tronco extraídas da medula-óssea ou até do cordão umbilical. Porém estudos avançam e mostram resultados positivos no tratamento de diversas doenças, a utilização de células-tronco extraídas dos dentes de leite e até do dente siso. Como são constituídos por células mais jovens que os outros grupos celulares, apresentam grande potencialidade em transformar-se em tecidos, ossos ou até músculos do corpo. " +
                 "Aprofundem-se mais sobre o assunto acessando: https://ccb.med.br/texto/polpa-do-dente#:~:text=Vantagens%20do%20armazenamento%20das%20c%C3%A9lulas,tamb%C3%A9m%20a%20toda%20sua%20fam%C3%ADlia.</p>", HtmlCompat.FROM_HTML_MODE_LEGACY));
 
-        Linkify.addLinks(text, Linkify.ALL);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             text.setJustificationMode(android.text.Layout.JUSTIFICATION_MODE_INTER_WORD);
         }
